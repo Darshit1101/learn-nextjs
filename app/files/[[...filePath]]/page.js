@@ -5,7 +5,7 @@ export default async function Page({ params }) {
   return (
     <div>
       <h1>File Content for====== {filePath}</h1>
-      <h4>Filke join========== /{filePath.join('/')}</h4>
+      <h4>Filke join========== /{filePath?.join('/')}</h4>
     </div>
   );
 }
