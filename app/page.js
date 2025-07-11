@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
+import ComponentPage from './_components/page';
 
 export default function Home() {
   return (
@@ -13,6 +14,8 @@ export default function Home() {
             Navigate through our different sections using the links below.
           </p>
         </div>
+
+        <ComponentPage />
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-4xl mx-auto">
           <Link href="/about" className="block">
